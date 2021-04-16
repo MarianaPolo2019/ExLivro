@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExLivro", "ExLivro.csproj", "{D5A6025B-59BE-44C2-84EF-03635B66D9BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5A6025B-59BE-44C2-84EF-03635B66D9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A6025B-59BE-44C2-84EF-03635B66D9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A6025B-59BE-44C2-84EF-03635B66D9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A6025B-59BE-44C2-84EF-03635B66D9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B25ED4FB-29C8-4F66-A69F-E73AF5BCDA14}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ExLivro.Models.Livro>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de Livros</h1>
+
+<p>
+    <a asp-action="Create">Cadastrar Livro</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LivroID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Editora)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QtdePag)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CapaDura)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AnoPub)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Valor)
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LivroID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Autor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Editora)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QtdePag)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CapaDura)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AnoPub)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Valor)
+            </td>
+
+        </tr>
+}
+    </tbody>
+</table>
